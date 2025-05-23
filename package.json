@@ -1,6 +1,6 @@
 {
     "name": "vite-plugin-styles-glob-import",
-    "version": "0.1",
+    "version": "0.0.1",
     "description": "Use glob syntax for imports in css, sass, scss and less files",
     "main": "./dist/index.mjs",
     "types": "./dist/index.d.mts",
