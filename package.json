@@ -1,0 +1,39 @@
+{
+    "name": "vite-plugin-styles-glob-import",
+    "version": "0.1",
+    "description": "Use glob syntax for imports in css, sass, scss and less files",
+    "main": "./dist/index.mjs",
+    "types": "./dist/index.d.mts",
+    "scripts": {
+        "dev": "vitest",
+        "build": "tsup src/index.ts --format esm --dts",
+        "test": "vitest run"
+    },
+    "keywords": [
+        "vite",
+        "vite-plugin",
+        "sass",
+        "scss",
+        "less",
+        "css"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/keasy9/vite-plugin-styles-glob-import.git"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "glob": "^11.0.0"
+    },
+    "peerDependencies": {
+        "vite": "^6.0.0"
+    },
+    "devDependencies": {
+        "@types/glob": "^8.1.0",
+        "@types/node": "^22.10.1",
+        "tsup": "^8.3.5",
+        "typescript": "^5.6.2",
+        "vite": "^6.0.0",
+        "vitest": "^2.1.8"
+    }
+}
